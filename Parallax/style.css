@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url('bg.jpg');
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url('../p1.png');
+    min-height: 400px;
+}
+
+.pimg3 {
+    background-image: url('../H-C-J/logo1.png');
+    min-height: 400px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* for scrolling effect parallax
+    fixed=parallax
+    scroll=normal */
+    background-attachment: fixed;
+}
+
+.section {
+    text-align: center;
+    padding: 30px 70px;
+}
+
+.dark {
+    background-color: black;
+    color: #666;
+}
+
+.light h2 {
+    color: black;
+}
+
+.dark h2 {
+    color: aliceblue;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: white;
+}

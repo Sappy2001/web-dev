@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto:ital,wght@0,300;1,300;1,400&display=swap");
+body {
+	background-color: rgba(3, 28, 44, 0.856);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+nav {
+	font-family: "Dosis", sans-serif;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+	height: 60px;
+	background-color: black;
+	color: white;
+}
+nav ul li {
+	padding: 0 12px;
+}
+.brand img {
+	width: 12%;
+	background: rgba(255, 255, 255, 0.322);
+}
+.brand span {
+	padding: 0 12px;
+}
+.brand {
+	display: flex;
+	align-items: center;
+	font-weight: bolder;
+	font-size: 1.3em;
+}
+.container {
+	min-height: 70vh;
+	background-color: black;
+	color: white;
+	font-family: "Dosis", sans-serif;
+	display: flex;
+	margin: 23px auto;
+	width: 70%;
+	border-radius: 12px;
+	padding: 20px;
+	background-image: url("bg.jpg");
+	background-size: cover;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	height: 82px;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	left: 85px;
+	border-radius: 12px;
+}
+.icons {
+	margin: 15px 0;
+}
+.icons i {
+	cursor: pointer;
+	padding: 0 10px;
+}
+.icons i:active,.far:active{
+	font-size: 1.8em;
+	transition: 0.08s;
+	color:rgba(165, 156, 156, 0.466)
+}
+#myProgressBar {
+	height: 4px;
+	width: 90vw;
+	cursor: pointer;
+}
+.songlistplay{
+	display: flex;
+}
+.songItem{
+	height: 50px;
+display: flex;
+background-color: rgba(80, 78, 78, 0.61);
+color: whitesmoke;
+margin: 12px 0;
+justify-content: space-around;
+align-items:center;
+border-radius: 34px;
+}
+.songItem img{
+	width: 43px;
+	margin: 0 23px;
+	border-radius: 20px;
+}
+span .timestamp{
+	margin: 15px 23px;
+	display: flex;
+	align-items:center;
+	cursor: pointer;
+}
+.timestamp i{
+	padding: 0 15px;
+}
+.songInfo{
+	position: absolute;
+	left: 0;
+	font-family: 'Roboto',sans-serif;
+}
+.songInfo img{
+	opacity: 0;
+	transition: opacity 1s ease-in;
+}
+#myProgressBar{
+	transition:all 5s;
+}
